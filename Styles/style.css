@@ -70,45 +70,8 @@ header .title button {
   color: white;
 }
 
-.category {
-  height: 100vh;
-  background-image: url("../img/banner/imgbgcategory.jpg");
-  background-size: cover;
-  background-color: #FAF6F0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.category h1 {
-  font-size: 300px;
-  position: absolute;
-  color: #FAF6F0;
-  z-index: -10;
-}
-.category h2 {
-  text-align: center;
-  font-size: 70px;
-  z-index: 30;
-}
-.category h3 {
-  text-align: center;
-  z-index: 200;
-  margin-top: 60px;
-}
-.category .card {
-  display: flex;
-  justify-content: space-between;
-  margin: 150px 50px 0;
-}
-.category .card div[class*=card] {
-  background-color: #C8A969;
-  height: 200px;
-  width: 200px;
-}
-
 footer {
-  height: 70vh;
+  height: 80vh;
   background-image: url("../img/footer/img-ng-footer.jpg");
   background-size: cover;
   display: flex;
@@ -126,7 +89,7 @@ footer {
   width: 900px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 70px 50px 20px 50px;
 }
 .end h4 {
   color: #FAF6F0;
@@ -169,7 +132,7 @@ footer {
 }
 
 .end__contact {
-  width: 250px;
+  width: 300px;
 }
 
 .endImg {
