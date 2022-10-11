@@ -1,6 +1,10 @@
 footer{
     height: 80vh;
     background-image: url("../img/footer/img-ng-footer.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .endLogo{
     height: 50px;
@@ -11,8 +15,7 @@ footer{
     width: 900px;
     display: flex;
     justify-content: space-between;
-    margin: 70px 50px 20px 50px;
-
+    margin: auto;
     h4{
         color: $gold-color-lighter;
         margin: 10px 10px 20px 0px;
@@ -33,7 +36,7 @@ footer{
     width: 300px;
 }
 .end__contact{
-    width: 300px;
+    width: 250px;
 }
 .endImg{
     width:50px;
