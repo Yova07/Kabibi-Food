@@ -1,3 +1,66 @@
 header {
+    height: 100vh;
     background-image: url('../img/slider/img_bg_slider_home01.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+    .nav--menu {
+        font-size: 25px;
+        height: 70px;
+        width: 95%;
+        margin-left: 40px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 200px;
+        }
+    
+        ul {
+            display: flex;
+            justify-content: center;
+    
+            a {
+                text-decoration: none;
+                color: $white;
+                padding: 16px;
+            }
+        }
+    
+        .nav--menu__contact--informations {
+            display: flex;
+            align-items: center;
+    
+            p {
+                color: $white;
+            }
+            a {
+                color: $white;
+                background-color: $gold-color;
+                padding: 10px 20px;
+                margin-left: 20px;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+        }
+    }
+    .title {
+        font-size: 100px;
+        color: $white;
+        width: 500px;
+        margin-left: 50px;
+        line-height: 150px;
+        margin-bottom: 80px;
+
+        button {
+            background-color: black;
+            border: 2px solid gray;
+            padding: 10px 30px;
+            color: white;
+
+        }
+    }
 }

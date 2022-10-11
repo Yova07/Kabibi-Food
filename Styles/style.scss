@@ -1,6 +1,17 @@
+
+@import './_variables';
+
+@font-face {
+    font-family: 'fa-brands';
+    src: url(../font/fa-light-300.woff2);
+}
 * {
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: 'fa-brands';
+    box-sizing: border-box;
 }
 
 @import './_header.scss';
