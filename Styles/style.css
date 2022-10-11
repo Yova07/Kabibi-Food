@@ -119,11 +119,17 @@ footer {
 .end__about {
   width: 90px; }
 
+<<<<<<< HEAD
 .end__newsletters {
   width: 300px; }
 
 .end__contact {
   width: 250px; }
+=======
+.end__facilities {
+  width: 100px;
+}
+>>>>>>> 284fe63 (css change)
 
 .endImg {
   width: 50px; }
