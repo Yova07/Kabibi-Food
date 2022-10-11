@@ -107,13 +107,7 @@ header .title button {
 }
 
 footer {
-  height: 80vh;
-  background-image: url("../img/footer/img-ng-footer.jpg");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  background-image: url("../img/footer/img-ng-footer.jpg"); }
 
 .endLogo {
   height: 50px;
