@@ -89,6 +89,7 @@ header {
       width: 200px; }
 
 footer {
+  height: 80vh;
   background-image: url("../img/footer/img-ng-footer.jpg"); }
 
 .endLogo {
@@ -116,6 +117,6 @@ footer {
   width: 100px; }
 
 .endImg {
-  height: 50px; }
+  width: 50px; }
 
 /*# sourceMappingURL=style.css.map */

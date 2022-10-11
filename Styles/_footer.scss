@@ -1,16 +1,17 @@
 footer{
+    height: 80vh;
     background-image: url("../img/footer/img-ng-footer.jpg");
 }
 .endLogo{
     height: 50px;
     margin-top: 50px;
-
 }
 
 .end{
+    width: 900px;
     display: flex;
     justify-content: space-between;
-    margin: 70px 20px 20px 20px;
+    margin: 70px 50px 20px 50px;
 
     h4{
         color: $gold-color-lighter;
@@ -28,9 +29,12 @@ footer{
 .end__about{
    width: 90px;
 }
-.end__facilities{
-    width: 100px;
+.end__newsletters{
+    width: 300px;
+}
+.end__contact{
+    width: 300px;
 }
 .endImg{
-    height: 50px;
+    width:50px;
 }
