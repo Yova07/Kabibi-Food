@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,CAAE;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACFd,MAAO;EACH,gBAAgB,EAAE,6CAA6C",
-"sources": ["style.scss","_header.scss"],
-"names": [],
-"file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["style.scss","_header.scss","_footer.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;ACFJ;EACI;;;ACDJ;EACI","file":"style.css"}

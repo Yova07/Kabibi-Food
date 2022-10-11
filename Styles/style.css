@@ -1,8 +1,14 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 header {
-  background-image: url("../img/slider/img_bg_slider_home01.jpg"); }
+  background-image: url("../img/slider/img_bg_slider_home01.jpg");
+}
+
+footer {
+  background-image: url(/img/footer/img-ng-footer.jpg);
+}
 
 /*# sourceMappingURL=style.css.map */
