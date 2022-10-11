@@ -9,12 +9,27 @@ footer{
 
 .end{
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: space-between;
+    margin: 70px 20px 20px 20px;
 
     h4{
-        color: white;
+        color: $gold-color-lighter;
+        margin: 10px 10px 20px 0px;
     }
+    li, p{
+        color: $gold-color-lighter;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $gold-color-lighter;
+    }
+}
+.end__about{
+   width: 90px;
+}
+.end__facilities{
+    width: 100px;
 }
 .endImg{
     height: 50px;

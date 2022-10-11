@@ -82,11 +82,28 @@ footer {
 
 .end {
   display: flex;
-  justify-content: center;
-  margin-top: 70px;
+  justify-content: space-between;
+  margin: 70px 20px 20px 20px;
 }
 .end h4 {
-  color: white;
+  color: #FAF6F0;
+  margin: 10px 10px 20px 0px;
+}
+.end li, .end p {
+  color: #FAF6F0;
+  list-style: none;
+}
+.end a {
+  text-decoration: none;
+  color: #FAF6F0;
+}
+
+.end__about {
+  width: 90px;
+}
+
+.end__facilities {
+  width: 100px;
 }
 
 .endImg {
