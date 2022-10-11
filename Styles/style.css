@@ -127,9 +127,13 @@ footer {
   width: 250px; }
 =======
 .end__facilities {
+<<<<<<< HEAD
   width: 100px;
 }
 >>>>>>> 284fe63 (css change)
+=======
+  width: 100px; }
+>>>>>>> 2625ab4 (modification html et styles)
 
 .endImg {
   width: 50px; }
