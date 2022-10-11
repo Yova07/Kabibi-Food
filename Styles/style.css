@@ -15,67 +15,63 @@ header {
   align-items: flex-start;
   justify-content: space-between;
 }
-  header .nav--menu {
-    font-size: 25px;
-    height: 70px;
-    width: 95%;
-    margin-left: 40px;
-    display: flex;
-    justify-content: space-between;
+header .nav--menu {
+  font-size: 25px;
+  height: 70px;
+  width: 95%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-    header .nav--menu img {
+header .nav--menu img {
   width: 200px;
 }
-    header .nav--menu ul {
-      margin-right: 50px;
-      display: flex;
-      justify-content: center;
+header .nav--menu ul {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
-      header .nav--menu ul a {
-        text-decoration: none;
+header .nav--menu ul a {
+  text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 16px;
 }
-    header .nav--menu .nav--menu__contact--informations {
-      display: flex;
+header .nav--menu .nav--menu__contact--informations {
+  display: flex;
   align-items: center;
 }
-      header .nav--menu .nav--menu__contact--informations p {
+header .nav--menu .nav--menu__contact--informations p {
   color: rgb(255, 255, 255);
 }
-      header .nav--menu .nav--menu__contact--informations a {
-        font-size: 20px;
+header .nav--menu .nav--menu__contact--informations a {
+  font-size: 20px;
   color: rgb(255, 255, 255);
-        background-color: #C8A969;
-        padding: 20px 30px;
-        margin-left: 20px;
-        text-decoration: none;
+  background-color: #C8A969;
+  padding: 20px 30px;
+  margin-left: 20px;
+  text-decoration: none;
   border-radius: 5px;
 }
-  header .title {
-    font-size: 100px;
+header .title {
+  font-size: 100px;
   color: rgb(255, 255, 255);
-    width: 500px;
-    margin-left: 150px;
-    line-height: 150px;
+  width: 500px;
+  margin-left: 150px;
+  line-height: 150px;
   margin-bottom: 80px;
 }
-    header .title button {
-      background-color: black;
-      border: 2px solid gray;
-      padding: 10px 30px;
+header .title button {
+  background-color: black;
+  border: 2px solid gray;
+  padding: 10px 30px;
   color: white;
 }
 
 footer {
-  height: 80vh;
+  height: 70vh;
   background-image: url("../img/footer/img-ng-footer.jpg");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .endLogo {
@@ -87,7 +83,7 @@ footer {
   width: 900px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 70px 50px 20px 50px;
 }
 .end h4 {
   color: #FAF6F0;
@@ -111,7 +107,7 @@ footer {
 }
 
 .end__contact {
-  width: 250px;
+  width: 300px;
 }
 
 .endImg {
