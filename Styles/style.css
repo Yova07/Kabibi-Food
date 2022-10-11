@@ -58,6 +58,7 @@ header {
       color: white; }
 
 footer {
+  height: 80vh;
   background-image: url("../img/footer/img-ng-footer.jpg"); }
 
 .endLogo {
@@ -66,26 +67,24 @@ footer {
 
 .end {
   display: flex;
-<<<<<<< HEAD
+
   justify-content: space-between;
-  margin: 70px 20px 20px 20px;
-}
-.end h4 {
-  color: #FAF6F0;
-  margin: 10px 10px 20px 0px;
-}
-.end li, .end p {
-  color: #FAF6F0;
-  list-style: none;
-}
-.end a {
-  text-decoration: none;
-  color: #FAF6F0;
-}
+  margin: 70px 50px 20px 50px; }
+  .end h4 {
+    color: #FAF6F0;
+    margin: 10px 10px 20px 0px; }
+  .end li, .end p {
+    color: #FAF6F0;
+    list-style: none; }
+  .end a {
+    text-decoration: none;
+    color: #FAF6F0; }
 
 .end__about {
-  width: 90px;
-}
+  width: 90px; }
+
+.end__newsletters {
+  width: 300px; }
 
 .end__facilities {
   width: 100px;
@@ -98,6 +97,6 @@ footer {
 >>>>>>> 20478f8 (style.scss)
 
 .endImg {
-  height: 50px; }
+  width: 50px; }
 
 /*# sourceMappingURL=style.css.map */
