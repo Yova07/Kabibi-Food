@@ -20,8 +20,10 @@ header {
         }
     
         ul {
+            margin-right: 50px;
             display: flex;
             justify-content: center;
+            list-style: none;
     
             a {
                 text-decoration: none;
@@ -38,9 +40,10 @@ header {
                 color: $white;
             }
             a {
+                font-size: 20px;
                 color: $white;
                 background-color: $gold-color;
-                padding: 10px 20px;
+                padding: 20px 30px;
                 margin-left: 20px;
                 text-decoration: none;
                 border-radius: 5px;
@@ -51,7 +54,7 @@ header {
         font-size: 100px;
         color: $white;
         width: 500px;
-        margin-left: 50px;
+        margin-left: 150px;
         line-height: 150px;
         margin-bottom: 80px;
 
