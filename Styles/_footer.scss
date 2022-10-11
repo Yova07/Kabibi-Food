@@ -1,3 +1,21 @@
 footer{
-    background-image: url(/img/footer/img-ng-footer.jpg);
+    background-image: url("../img/footer/img-ng-footer.jpg");
+}
+.endLogo{
+    height: 50px;
+    margin-top: 50px;
+
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+    h4{
+        color: white;
+    }
+}
+.endImg{
+    height: 50px;
 }
