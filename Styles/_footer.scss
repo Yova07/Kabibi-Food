@@ -1,5 +1,5 @@
 footer{
-    height: 70vh;
+    height: 100%;
     background-image: url("../img/footer/img-ng-footer.jpg");
     background-size: cover;
     display: flex;
@@ -9,7 +9,8 @@ footer{
 }
 .endLogo{
     height: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .end{
@@ -17,6 +18,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: auto;
+    line-height: 35px;
     h4{
         color: $gold-color-lighter;
         margin: 10px 10px 20px 0px;
@@ -40,9 +42,10 @@ footer{
         color: $gold-color-lighter;
     }
     input{
-        width: 250px;
+        width: 240px;
         height: 40px;
         margin-top: 20px;
+        padding-left: 20px;
         background-color: $gold-color-lighter;
         border: none;
     }
@@ -50,32 +53,59 @@ footer{
         width: 40px;
         height: 40px;
         background-color: $gold-color;
+        background-image: url(../img/footer/fleche-droite.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
         border:none;
-    }
+        margin-left: -5px;
+        padding-top: 9px;
+    }    
     a{
         font-size: larger;
     }
 }
 .end__contact{
     width: 250px;
+   
 }
+.end__contact__address, .end__contact__mail, .end__contact__phone, .end__contact__time{
+    display: flex;
+    flex-direction: row;
+    img{
+        height: 15px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+
 .endImg{
     width:50px;
 }
 .endFooter{
     width: 900px;
+    position: relative;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
     margin-bottom: 50px;
+    hr{
+        width: 870px;
+        border:1px solid $grey;
+        position: absolute;
+        top: 20px;
+        
+    }
     .copyright{
         width: 800px;
+        position: relative;
         display: flex;
         align-items: end;
         padding-bottom: 10px;
     }
     p{
         color: $gold-color-lighter;
-        font-size: small;
+        font-size: smaller;
         width: fit-content;
     }
     a{
@@ -83,16 +113,12 @@ footer{
         color: $gold-color;
     }
 } 
-.endFooter::before{
-    content: ""; 
-    border-top: 10px solid white; 
-    margin: auto; 
-}
 .networks{
     display: flex;
     align-items: end;
+    margin-right: 20px;
     img{
-        width: 30px;
+        width: 25px;
         margin-right: 10px;
     }
 }
