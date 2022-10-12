@@ -1,0 +1,90 @@
+.about {
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    .about__img {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: -30px;
+        margin-right: 50px;
+        z-index: 200;
+        
+        
+        img {
+            border-radius: 50%;
+            margin: 0 10px;
+            width: 350px;
+            &:nth-child(2) {
+                margin-top: -200px;
+                width: 750px;
+                border: 50px solid white;
+            }
+            &:nth-child(3) {
+                width: 480px;
+                margin-top: -50px;
+            }
+        }
+    } 
+    h1 {
+        font-size: 240px;
+        position: absolute;
+        text-transform: uppercase;
+        top: 700px;
+        color: $gold-color;
+        opacity: 10%;
+        z-index: 10;
+        
+    }
+    h2 {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        z-index: 30;
+    }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-align: center;
+        z-index: 200;
+        margin-top: 20px;
+    }   
+    .about__content {
+        margin: 100px 300px 100px 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            height: 600px;
+        }
+
+        .about__content--text {
+            margin: 100px;
+            
+            p {
+                line-height: 50px;
+                font-size: 30px;
+                word-spacing: 10px;
+                letter-spacing: 2px;
+                margin-bottom: 50px;
+            }
+            button {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                background-color: $gold-color;
+                color: $white;
+                padding: 20px 40px;
+                border-radius: 5px;
+                font-size: 16px;
+                border: none;
+                text-transform: uppercase;
+
+            }
+            i {
+                margin-left: 10px;
+            }
+        }
+        
+    }
+}

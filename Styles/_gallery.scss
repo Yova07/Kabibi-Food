@@ -1,0 +1,72 @@
+.gallery {
+    font-family: 'Cormorant Garamond', serif;
+    height: 100%;
+    position: relative;
+    display: flex;
+    z-index: -50;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 240px;
+        position: absolute;
+        text-transform: uppercase;
+        top: 70px;
+        left: 0;
+        color: $gold-color;
+        opacity: 10%;
+        z-index: 10;
+        
+    }
+    h2 {
+        margin-top:150px;
+        margin-right: 200px;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        z-index: 30;
+    }
+    h3 {
+    
+        font-size: 25px;
+        margin-right: 200px;
+        text-align: center;
+        z-index: 200;
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+    .gallery__img {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+
+
+        .one {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+        .two {
+            grid-column: 3 ;
+            grid-row: 1;
+        }
+        .three {
+            grid-column: 4 ;
+            grid-row: 1;
+        }
+        .four {
+            grid-column: 1 ;
+            grid-row: 2;
+        }
+        .five {
+            grid-column: 2 ;
+            grid-row: 2;
+        }
+        .six {
+            grid-column: 3 / 4;
+            grid-row: 2;
+        }
+    }
+}
