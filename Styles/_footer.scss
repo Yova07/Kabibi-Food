@@ -1,6 +1,7 @@
 footer{
     height: 70vh;
     background-image: url("../img/footer/img-ng-footer.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,7 @@ footer{
         color: $gold-color-lighter;
         margin: 10px 10px 20px 0px;
     }
-    li, p{
+    li {
         color: $gold-color-lighter;
         list-style: none;
     }
@@ -31,13 +32,67 @@ footer{
 }
 .end__about{
    width: 90px;
+   
 }
 .end__newsletters{
     width: 300px;
+    p{
+        color: $gold-color-lighter;
+    }
+    input{
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: $gold-color-lighter;
+        border: none;
+    }
+    button{
+        width: 40px;
+        height: 40px;
+        background-color: $gold-color;
+        border:none;
+    }
+    a{
+        font-size: larger;
+    }
 }
 .end__contact{
     width: 250px;
 }
 .endImg{
     width:50px;
+}
+.endFooter{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    .copyright{
+        width: 800px;
+        display: flex;
+        align-items: end;
+        padding-bottom: 10px;
+    }
+    p{
+        color: $gold-color-lighter;
+        font-size: small;
+        width: fit-content;
+    }
+    a{
+        text-decoration: none;
+        color: $gold-color;
+    }
+} 
+.endFooter::before{
+    content: ""; 
+    border-top: 10px solid white; 
+    margin: auto; 
+}
+.networks{
+    display: flex;
+    align-items: end;
+    img{
+        width: 30px;
+        margin-right: 10px;
+    }
 }

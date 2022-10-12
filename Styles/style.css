@@ -360,6 +360,7 @@ header {
 footer {
   height: 70vh;
   background-image: url("../img/footer/img-ng-footer.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -377,7 +378,7 @@ footer {
   .end h4 {
     color: #FAF6F0;
     margin: 10px 10px 20px 0px; }
-  .end li, .end p {
+  .end li {
     color: #FAF6F0;
     list-style: none; }
   .end a {
@@ -389,11 +390,56 @@ footer {
 
 .end__newsletters {
   width: 300px; }
+  .end__newsletters p {
+    color: #FAF6F0; }
+  .end__newsletters input {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #FAF6F0;
+    border: none; }
+  .end__newsletters button {
+    width: 40px;
+    height: 40px;
+    background-color: #C8A969;
+    border: none; }
+  .end__newsletters a {
+    font-size: larger; }
 
 .end__contact {
   width: 250px; }
 
 .endImg {
   width: 50px; }
+
+.endFooter {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  .endFooter .copyright {
+    width: 800px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px; }
+  .endFooter p {
+    color: #FAF6F0;
+    font-size: small;
+    width: fit-content; }
+  .endFooter a {
+    text-decoration: none;
+    color: #C8A969; }
+
+.endFooter::before {
+  content: "";
+  border-top: 10px solid white;
+  margin: auto; }
+
+.networks {
+  display: flex;
+  align-items: end; }
+  .networks img {
+    width: 30px;
+    margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */
