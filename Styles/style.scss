@@ -1,5 +1,6 @@
 
 @import './_variables';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +8,12 @@
 }
 body {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 @import './_header.scss';
 @import './_category';
+@import './about';
+@import './our\ menu';
+@import './gallery';
 @import './_footer.scss';

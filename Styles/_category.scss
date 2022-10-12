@@ -1,40 +1,72 @@
+
+
 .category {
+    font-family: 'Cormorant Garamond', serif;
     height: 100vh;
-    background-image: url('../img/banner/imgbgcategory.jpg');
-    background-size: cover;
+    background-image: linear-gradient(#c8a8691e, #c8a8691e), url('../img/banner/imgbgcategory.jpg');
+    background-size: 115%;
+    background-position: 44% 40%;
     background-color: $gold-color-lighter;
     position: relative;
     display: flex;
+    z-index: -50;
     flex-direction: column;
     justify-content: center;
 
     h1 {
-        font-size: 300px;
+        font-size: 240px;
         position: absolute;
-        color: $gold-color-lighter;
-        z-index: -10;
+        text-transform: uppercase;
+        top: 70px;
+        color: $gold-color;
+        opacity: 10%;
+        z-index: 10;
         
     }
     h2 {
+        margin-top: -200px;
         text-align: center;
-        font-size: 70px;
+        font-size: 50px;
+        text-transform: uppercase;
         z-index: 30;
     }
     h3 {
+
+        font-size: 25px;
         text-align: center;
         z-index: 200;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .card {
         display: flex;
-        justify-content: space-between;
-        margin: 150px 50px 0;
+        justify-content: center;
+        margin-top: 130px;
+        z-index: 15;
         
 
         div[class*=card] {
-            background-color: $gold-color;
-            height: 200px;
-            width: 200px;
+            width: 215px;
+            padding: 50px 0;
+            background-color: $white;
+            margin: 0px 15px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: 23px;
+                margin: 20px 0;
+            }
+
+            i {
+                font-size: 50px;
+                color: $gold-color;
+            }
+            i[class*=arrow] {
+                font-size: 22px;
+                color: black;
+            }
         }
     }
     

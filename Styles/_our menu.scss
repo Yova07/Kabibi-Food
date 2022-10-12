@@ -1,0 +1,92 @@
+.our--menu {
+    font-family: 'Cormorant Garamond', serif;
+    height: 100%;
+    background-color: $gold-color-lighter;
+    position: relative;
+    display: flex;
+    z-index: -50;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-size: 240px;
+        position: absolute;
+        text-transform: uppercase;
+        top: 70px;
+        color: $gold-color;
+        opacity: 10%;
+        z-index: 10;
+        
+    }
+    h2 {
+        margin-top:150px;
+        margin-right: 200px;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        z-index: 30;
+    }
+    h3 {
+
+        font-size: 25px;
+        margin-right: 200px;
+        text-align: center;
+        z-index: 200;
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+    .our--menu__right--img {
+        position: absolute;
+        height: 100%;
+        right: 0;
+        z-index: -5;
+    }
+    .our--menu__left--img {
+        position: absolute;
+        left: 0;
+        bottom: -270px;
+        width: 260px;
+        z-index: -5;
+    }
+    .our--menu__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        .our--menu__content__column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .our--menu__content--item {
+                width: 700px;
+                height: 130px;
+                background-color: white;
+                margin: 15px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            .our--menu__content--item__text {
+                margin-left: 40px;
+                h4 {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+            .our--menu__content--item__price {
+                p {
+                    font-size: 70px;
+                    color: $gold-color;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}
