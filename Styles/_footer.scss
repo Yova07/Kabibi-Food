@@ -1,57 +1,82 @@
 footer{
     height: 100%;
+    
     background-image: url("../img/footer/img-ng-footer.jpg");
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .endLogo{
-    height: 50px;
-    margin-top: 80px;
+    height: 90px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .end{
-    width: 900px;
+    width: 1450px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
-    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 40px;
     h4{
+        font-family: 'Cormorant Garamond', serif;
         color: $gold-color-lighter;
         margin: 10px 10px 20px 0px;
+        font-size: 40px;
+        font-weight: 300;
     }
     li {
-        color: $gold-color-lighter;
+        font-family: sans-serif;
+        color: $grey-light;
+        font-size: large;
+        font-weight: lighter;
         list-style: none;
     }
     a{
+        font-family: sans-serif;
+        color: $grey-light;
+        font-size: large;
+        font-weight: lighter;
         text-decoration: none;
-        color: $gold-color-lighter;
     }
 }
 .end__about{
-   width: 90px;
+   width: 100px;
    
 }
 .end__newsletters{
-    width: 300px;
+    width: 400px;
     p{
-        color: $gold-color-lighter;
+        font-family: sans-serif;
+        font-size: large;
+        font-weight: lighter;
+        color: $grey-light;
+        line-height: 30px;
     }
+}
+.end__newsletters__mail{
+    width: 360px;
+    height: 60px;
+    margin-top: 40px;
     input{
-        width: 240px;
-        height: 40px;
-        margin-top: 20px;
-        padding-left: 20px;
+        width: 280px;
+        height: 60px;
         background-color: $gold-color-lighter;
         border: none;
+        font-family: sans-serif;
+        font-size: large;
+        font-weight: lighter;
+        color: $grey-light;
+        padding-left: 20px;
     }
     button{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         background-color: $gold-color;
         background-image: url(../img/footer/fleche-droite.png);
         background-repeat: no-repeat;
@@ -59,54 +84,56 @@ footer{
         background-size: 30px;
         border:none;
         margin-left: -5px;
-        padding-top: 9px;
+        padding-top: 12px;
     }    
-    a{
-        font-size: larger;
-    }
 }
 .end__contact{
-    width: 250px;
+    width: 350px;
    
 }
 .end__contact__address, .end__contact__mail, .end__contact__phone, .end__contact__time{
     display: flex;
     flex-direction: row;
     img{
-        height: 15px;
-        margin-right: 10px;
+        height: 20px;
+        margin-right: 20px;
         margin-top: 10px;
     }
 }
 
 .endImg{
-    width:50px;
+    width:90px;
+    margin-left: 10px;
+   
 }
 .endFooter{
-    width: 900px;
+    width: 1450px;
     position: relative;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     hr{
-        width: 870px;
+        width: 1410px;
         border:1px solid $grey;
         position: absolute;
-        top: 20px;
+        top: 35px;
         
     }
     .copyright{
-        width: 800px;
+        width: 850px;
         position: relative;
         display: flex;
         align-items: end;
-        padding-bottom: 10px;
+        
     }
     p{
-        color: $gold-color-lighter;
-        font-size: smaller;
+        font-family: sans-serif;
+        color: $grey-light;
+        font-size: large;
+        font-weight: lighter;
         width: fit-content;
+        padding-bottom: 15px;
     }
     a{
         text-decoration: none;
@@ -116,9 +143,9 @@ footer{
 .networks{
     display: flex;
     align-items: end;
-    margin-right: 20px;
+    margin-right: 35px;
     img{
-        width: 25px;
+        width: 35px;
         margin-right: 10px;
     }
 }
