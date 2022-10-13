@@ -427,6 +427,9 @@ footer {
   padding: 25px 15px 15px 15px;
   text-decoration: none;
 }
+.our--blog__content i {
+  margin-left: 15px;
+}
 
 .our--blog__content__article > p {
   font-family: "Cormorant Garamond", serif;
