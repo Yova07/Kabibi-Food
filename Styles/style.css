@@ -192,7 +192,6 @@ footer {
   background-image: url("../img/footer/img-ng-footer.jpg");
   background-size: cover;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -207,7 +206,6 @@ footer {
 .end {
   width: 1450px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -740,7 +738,6 @@ footer {
   background-image: url("../img/footer/img-ng-footer.jpg");
   background-size: cover;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -755,7 +752,6 @@ footer {
 .end {
   width: 1450px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 20px;
