@@ -8,15 +8,15 @@
 }
 body {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
 }
 
 @import './_header.scss';
 @import './_category';
-@import './_footer.scss';
-@import './blog';
-@import './chefs';
 @import './about';
 @import './our\ menu';
 @import './gallery';
+@import './chefs';
+@import './blog';
 @import './_footer.scss';

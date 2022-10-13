@@ -12,7 +12,7 @@ header {
     .nav--menu {
         font-size: 20px;
         height: 120px;
-        width: 95%;
+        min-width: 95%;
         margin-left: 90px ;
         display: flex;
         justify-content: space-between;
@@ -49,7 +49,7 @@ header {
                 color: $white;
             }
             a {
-                font-size: 17px;
+                font-size: 16px;
                 color: $white;
                 font-weight: bold;
                 text-transform: uppercase;
@@ -75,11 +75,25 @@ header {
     .title {
         font-family: 'Cormorant Garamond', serif;
         text-transform: uppercase;
-        font-size: 70px;
+        font-size: 80px;
         color: $white;
         width: 500px;
         margin: 140px 0 80px 200px;
         line-height: 150px;
+        position: relative;
+
+        &::before {
+            content: '';
+            z-index: 45;
+            background-image: url('../img/slider/img_bg2.png');
+            background-size: cover;
+            color: white;
+            position: absolute;
+            top: -70px;
+            right: -120px;
+            width: 170px;
+            height: 170px;
+        }
 
         button {
             font-size: 16px;
@@ -102,14 +116,17 @@ header {
         position: absolute;
         background-color: $white;
         font-size: 30px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 50%;
         right: 275px;
         bottom: 305px;
 
         i {
+            margin-left: 5px;
             font-size: 35px;
-            line-height: 130px;
+            color: $gold-color;
         }
 
 
@@ -122,6 +139,13 @@ header {
             position: absolute;
             right: -33px;
             bottom: -33px;
+        }
+    }
+}
+@media screen and (max-width: 1700px) {
+    header {
+        ul {
+            
         }
     }
 }

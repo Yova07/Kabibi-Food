@@ -5,7 +5,7 @@
     height: 100vh;
     background-image: linear-gradient(#c8a8691e, #c8a8691e), url('../img/banner/imgbgcategory.jpg');
     background-size: 115%;
-    background-position: 44% 40%;
+    background-position: 44% 55%;
     background-color: $gold-color-lighter;
     position: relative;
     display: flex;
@@ -40,8 +40,10 @@
     .card {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         margin-top: 130px;
         z-index: 15;
+        flex-wrap: wrap;
         
 
         div[class*=card] {
