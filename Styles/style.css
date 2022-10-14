@@ -609,7 +609,6 @@ header {
   min-height: 100vh;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
@@ -641,6 +640,7 @@ header {
     margin-bottom: 33px; }
     .gallery .gallery__img .gallery__img__row .container {
       position: relative;
+      height: 450px;
       cursor: pointer; }
       .gallery .gallery__img .gallery__img__row .container img {
         height: 100%; }
@@ -688,34 +688,6 @@ header {
 @media screen and (max-width: 425px) {
   .gallery h1 {
     display: none; } }
-@media screen and (max-width: 425px) {
-  .gallery .gallery__btn {
-    margin: 20px 0; }
-  .gallery h1 {
-    font-size: 65px;
-    margin-left: 10px;
-    margin-top: -55px; }
-  .gallery h2 {
-    font-size: 23px;
-    margin-top: 50px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .gallery h3 {
-    font-size: 17px;
-    margin: 20px 0px 20px 0px; }
-  .gallery .gallery__img .gallery__img__row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2px;
-    margin-bottom: 0px; }
-    .gallery .gallery__img .gallery__img__row .container {
-      position: relative;
-      cursor: pointer; }
-      .gallery .gallery__img .gallery__img__row .container img {
-        height: 200px; }
-      .gallery .gallery__img .gallery__img__row .container .layout {
-        display: none; } }
 .our--chef {
   height: 100%;
   font-family: 'Cormorant Garamond', serif;

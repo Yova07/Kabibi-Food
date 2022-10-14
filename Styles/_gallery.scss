@@ -3,7 +3,6 @@
     min-height: 100vh;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,6 +44,7 @@
 
         .container {
             position: relative;
+            height: 450px;
             cursor: pointer;
 
         img {
@@ -120,50 +120,3 @@
         }
     }
 
-    @media screen and (max-width:425px)                                   //media queries - mobile phone <425px                      
-    { .gallery {
-        .gallery__btn {
-            margin: 20px 0;
-        }
-    
-        h1 {
-            font-size: 65px;
-            margin-left: 10px; 
-            margin-top: -55px;
-        }
-        h2 {
-            font-size: 23px;
-            margin-top: 50px;
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-        h3 {
-            font-size: 17px;
-            margin: 20px 0px 20px 0px;
-        }
-        .gallery__img {
-    
-            .gallery__img__row {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 2px;
-                margin-bottom: 0px;
-    
-            .container {
-                position: relative;
-                cursor: pointer;
-    
-            img {
-                height: 200px;
-                
-            }
-            .layout {
-                display: none;
-            }
-    
-        }
-            }
-        }
-    }
-    }
