@@ -1,7 +1,7 @@
 .our--chef{
     height: 100%;
     font-family: 'Cormorant Garamond', serif;
-    background-image: url(/img/our-chefs/imgbg-ourchefs.jpg);
+    background-image: url(../img/our-chefs/imgbg-ourchefs.jpg);
     background-size: cover;
     position: relative;
     z-index: -50;
@@ -48,38 +48,37 @@
     }
 }
 
-// @media screen and (max-width:425px)                        
-// {
-//     .our--chef{
-//         h1 {
-//             font-size: 80px;
-//             margin-left: 5px; 
-//             margin-top: -50px;
-//         }
-//         h2 {
-//             font-size: 23px;
-//             padding-top: 95px;
-//             margin-right: 10px;
-//             margin-left: 10px;
-//         }
-//         h3 {
-//             font-size: 17px;
-//             margin-top: 20px;
-//             margin-right: 0;
-//             margin-left: 0;
-//         }
-//     }
-//     .our--chef__img{
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-content: center;
-//         margin: 45px 0px 0px 0px;
-//         img{
-//             width: 210px;
-//             margin-top: 20px;
-//             margin-bottom: 20px;
-//         }
-//     } 
+@media screen and (max-width:425px)                                   //media queries - mobile phone <425px                      
+{
+    .our--chef{
+        h1 {
+            font-size: 65px;
+            margin-left: 10px; 
+            margin-top: -55px;
+        }
+        h2 {
+            font-size: 23px;
+            padding-top: 50px;
+            margin-top: 50px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        h3 {
+            font-size: 17px;
+            margin: 20px 0px 20px 0px;
+        }
+    }
+    .our--chef__img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 45px 0px 0px 0px;
+        img{
+            width: 210px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    } 
 
-// }
+}
