@@ -1,6 +1,5 @@
 footer{
     height: 100%;
-    
     background-image: url("../img/footer/img-ng-footer.jpg");
     background-size: cover;
     display: flex;
@@ -137,34 +136,192 @@ footer{
         text-decoration: none;
         color: $gold-color;
     }
+    a:hover{
+        color: $gold-color-lighter;
+    }
 } 
 .networks{
     display: flex;
     align-items: end;
     margin-right: 35px;
     img{
-        position: relative;
         width: 35px;
         margin-right: 10px;
         z-index: 20;
     }
 }
-.facebook::after{
-    content: "";
-    background-image: url(/img/footer/facebook.png);
-    position: absolute;
-    width: 100%;
+.end__about a:hover{
+    color: $gold-color;
+}
+.end__facilities a:hover{
+    color: $gold-color;
+}
+.facebook{
+    width: 35px;
+    height: 35px;
+    background-image: url(/img/footer/facebookGris.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
     
+}
+.facebook:hover{
+    background-image: url(/img/footer/facebook.png);
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+    background-image: url(/img/footer/twitterGris.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .twitter:hover{
     background-image: url(/img/footer/twitter.png);
+}
+.youtube{
     width: 35px;
+    height: 35px;
+    background-image: url(/img/footer/youtubeGris.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .youtube:hover{
     background-image: url(/img/footer/youtube.png);
+}
+.linkedin{
     width: 35px;
+    height: 35px;
+    background-image: url(/img/footer/linkedinGris.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .linkedin:hover{
     background-image: url(/img/footer/linkedin.png);
-    width: 35px;
 }
+
+
+@media screen and (max-width:425px){                                    //media queries - mobile phone <425px
+    
+    footer{
+        height: auto;
+        background-image: url("../img/footer/img-ng-footer.jpg");
+        background-size: auto;
+    }
+    .endLogo{
+        height: 60px;
+        margin-top: 50px;
+    }
+    
+    .end{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        line-height: 30px;
+        h4{
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        li {
+            font-size: 15px;
+        }
+        a{
+            font-size: 15px;
+        }
+    }
+    .end__about{
+       width: 200px;
+       margin-bottom: 30px;
+    }
+    .end__facilities{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .end__newsletters{
+        width: 200px;
+        margin-bottom: 30px;
+        p{
+            font-size: 15px;
+            text-align: justify;
+        }
+    }
+    .end__newsletters__mail{
+        width: 200px;
+        height: 60px;
+        margin-top: 40px;
+        input{
+            width: 140px;
+            height: 40px;
+            font-size: 13px;
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            background-size: 25px;
+            margin-left: -5px;
+            padding-top: 9px;
+        }    
+    }
+    .end__contact{
+        width: 250px;
+        margin-bottom: 30px;
+        li{
+            text-align: start;
+        }
+       
+    }
+    .end__contact__address, .end__contact__mail, .end__contact__phone, .end__contact__time{
+        display: flex;
+        flex-direction: row;
+        img{
+            height: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+    }
+    .endImg{
+        width:60px;
+        align-items: center;
+       
+    }
+    .endFooter{
+        width: 300px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        hr{
+            width: 290px;
+            top: 90px;
+        }
+        .copyright{
+            width: 300px;
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center; 
+            margin-top: 30px; 
+        }
+        p{
+            font-size: 13px;
+            margin: 20px 20px 0px 20px;
+        }
+    } 
+    .networks{
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}                                
