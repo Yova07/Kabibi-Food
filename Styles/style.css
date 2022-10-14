@@ -22,11 +22,6 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 1600px) {
-  h1 {
-    font-size: 1em;
-  }
-}
 header {
   background-image: linear-gradient(160deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
@@ -44,6 +39,7 @@ header .nav--menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: auto;
 }
 header .nav--menu img {
@@ -113,6 +109,7 @@ header .title a {
   font-size: 16px;
   font-weight: bold;
   margin-left: 30px;
+  border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
@@ -157,6 +154,11 @@ header .player::after {
   bottom: -33px;
 }
 
+@media screen and (max-width: 425px) {
+  .player {
+    display: none;
+  }
+}
 .category {
   font-family: "Cormorant Garamond", serif;
   height: 100vh;
@@ -238,6 +240,11 @@ header .player::after {
   color: black;
 }
 
+@media screen and (max-width: 425px) {
+  .category h1 {
+    display: none;
+  }
+}
 .our--blog {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
@@ -424,7 +431,7 @@ header .player::after {
 .our--chef {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
-  background-image: url(/img/our-chefs/imgbg-ourchefs.jpg);
+  background-image: url("../img/our-chefs/imgbg-ourchefs.jpg");
   background-size: cover;
   position: relative;
   z-index: -50;
@@ -598,6 +605,24 @@ header .player::after {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 425px) {
+  .about h1 {
+    display: none;
+  }
+  img {
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  img:nth-child(1) {
+    display: none;
+  }
+  img:nth-child(2) {
+    display: none;
+  }
+  img:nth-child(3) {
+    display: none;
+  }
+}
 .our--menu {
   font-family: "Cormorant Garamond", serif;
   height: 100%;
@@ -690,11 +715,22 @@ header .player::after {
   margin-right: 40px;
 }
 
+@media screen and (max-width: 425px) {
+  .our--menu h1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .our--menu__content--item {
+    width: 40%;
+  }
+}
 .gallery {
   font-family: "Cormorant Garamond", serif;
   min-height: 100vh;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -731,7 +767,6 @@ header .player::after {
 }
 .gallery .gallery__img .gallery__img__row .container {
   position: relative;
-  height: 450px;
   cursor: pointer;
 }
 .gallery .gallery__img .gallery__img__row .container img {
@@ -785,10 +820,52 @@ header .player::after {
   border: 1px solid #C8A969;
 }
 
+@media screen and (max-width: 425px) {
+  .gallery h1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .gallery .gallery__btn {
+    margin: 20px 0;
+  }
+  .gallery h1 {
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: -55px;
+  }
+  .gallery h2 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .gallery h3 {
+    font-size: 17px;
+    margin: 20px 0px 20px 0px;
+  }
+  .gallery .gallery__img .gallery__img__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-bottom: 0px;
+  }
+  .gallery .gallery__img .gallery__img__row .container {
+    position: relative;
+    cursor: pointer;
+  }
+  .gallery .gallery__img .gallery__img__row .container img {
+    height: 200px;
+  }
+  .gallery .gallery__img .gallery__img__row .container .layout {
+    display: none;
+  }
+}
 .our--chef {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
-  background-image: url(/img/our-chefs/imgbg-ourchefs.jpg);
+  background-image: url("../img/our-chefs/imgbg-ourchefs.jpg");
   background-size: cover;
   position: relative;
   z-index: -50;
@@ -1128,7 +1205,7 @@ footer {
   width: 60px;
   height: 60px;
   background-color: #C8A969;
-  background-image: url(../img/footer/fleche-droite.png);
+  background-image: url("../img/footer/fleche-droite.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30px;
@@ -1214,7 +1291,7 @@ footer {
 .facebook {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/facebookGris.png);
+  background-image: url("../img/footer/facebookGris.png");
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1222,13 +1299,13 @@ footer {
 }
 
 .facebook:hover {
-  background-image: url(/img/footer/facebook.png);
+  background-image: url("../img/footer/facebook.png");
 }
 
 .twitter {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/twitterGris.png);
+  background-image: url("../img/footer/twitterGris.png");
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1236,13 +1313,13 @@ footer {
 }
 
 .twitter:hover {
-  background-image: url(/img/footer/twitter.png);
+  background-image: url("../img/footer/twitter.png");
 }
 
 .youtube {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/youtubeGris.png);
+  background-image: url("../img/footer/youtubeGris.png");
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1250,13 +1327,13 @@ footer {
 }
 
 .youtube:hover {
-  background-image: url(/img/footer/youtube.png);
+  background-image: url("../img/footer/youtube.png");
 }
 
 .linkedin {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/linkedinGris.png);
+  background-image: url("../img/footer/linkedinGris.png");
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1264,7 +1341,7 @@ footer {
 }
 
 .linkedin:hover {
-  background-image: url(/img/footer/linkedin.png);
+  background-image: url("../img/footer/linkedin.png");
 }
 
 @media screen and (max-width: 425px) {
