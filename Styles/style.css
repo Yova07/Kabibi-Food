@@ -431,7 +431,7 @@ header .player::after {
 .our--chef {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
-  background-image: url(/img/our-chefs/imgbg-ourchefs.jpg);
+  background-image: url(../img/our-chefs/imgbg-ourchefs.jpg);
   background-size: cover;
   position: relative;
   z-index: -50;
@@ -1291,7 +1291,7 @@ footer {
 .facebook {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/facebookGris.png);
+  background-image: url(../img/footer/facebookGris.png);
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1299,13 +1299,13 @@ footer {
 }
 
 .facebook:hover {
-  background-image: url(/img/footer/facebook.png);
+  background-image: url(../img/footer/facebook.png);
 }
 
 .twitter {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/twitterGris.png);
+  background-image: url(../img/footer/twitterGris.png);
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1313,13 +1313,13 @@ footer {
 }
 
 .twitter:hover {
-  background-image: url(/img/footer/twitter.png);
+  background-image: url(../img/footer/twitter.png);
 }
 
 .youtube {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/youtubeGris.png);
+  background-image: url(../img/footer/youtubeGris.png);
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1327,13 +1327,13 @@ footer {
 }
 
 .youtube:hover {
-  background-image: url(/img/footer/youtube.png);
+  background-image: url(../img/footer/youtube.png);
 }
 
 .linkedin {
   width: 35px;
   height: 35px;
-  background-image: url(/img/footer/linkedinGris.png);
+  background-image: url(../img/footer/linkedinGris.png);
   background-size: cover;
   background-position: center;
   margin-right: 10px;
@@ -1341,7 +1341,7 @@ footer {
 }
 
 .linkedin:hover {
-  background-image: url(/img/footer/linkedin.png);
+  background-image: url(../img/footer/linkedin.png);
 }
 
 @media screen and (max-width: 425px) {
