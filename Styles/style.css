@@ -320,7 +320,7 @@ header .player::after {
   width: 160px;
   height: 30px;
   text-align: center;
-  padding: 1.563rem 15px 15px 15px;
+  padding: 25px 15px 15px 15px;
   text-decoration: none;
 }
 .our--blog__content a:hover {
@@ -357,9 +357,9 @@ header .player::after {
 
 @media screen and (max-width: 425px) {
   .our--blog h1 {
-    font-size: 80px;
-    margin-left: 5px;
-    margin-top: -50px;
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: 55px;
   }
   .our--blog h2 {
     font-size: 23px;
@@ -377,10 +377,10 @@ header .player::after {
     margin: 50px 0px 0px 0px;
   }
   .our--blog__content .our--blog__content__article {
-    background-color: #FAF6F0;
     width: 250px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .our--blog__content img {
     width: 250px;
@@ -402,18 +402,9 @@ header .player::after {
     font-size: 10px;
   }
   .our--blog__content a {
-    background-color: rgb(255, 255, 255);
-    font-family: sans-serif;
     font-size: 12px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
     margin: 30px 0px 30px 30px;
-    width: 160px;
-    height: 30px;
-    text-align: center;
-    padding: 1.563rem 15px 15px 15px;
-    text-decoration: none;
+    padding: 15px 5px 0px 5px;
   }
   .our--blog__content i {
     margin-left: 15px;
@@ -422,15 +413,12 @@ header .player::after {
     font-size: 22px;
   }
   .our--blog__icon {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    margin: 60px 210px 120px 210px;
+    margin: 35px;
   }
   .our--blog__icon img {
-    height: 90px;
+    height: 70px;
+    margin-bottom: 25px;
+    margin-right: 10px;
   }
 }
 .our--chef {
@@ -482,6 +470,36 @@ header .player::after {
   margin-bottom: 250px;
 }
 
+@media screen and (max-width: 425px) {
+  .our--chef h1 {
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: -55px;
+  }
+  .our--chef h2 {
+    font-size: 23px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .our--chef h3 {
+    font-size: 17px;
+    margin: 20px 0px 20px 0px;
+  }
+  .our--chef__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 45px 0px 0px 0px;
+  }
+  .our--chef__img img {
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .about {
   font-family: "Cormorant Garamond", serif;
   position: relative;
@@ -677,6 +695,7 @@ header .player::after {
   min-height: 100vh;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -713,7 +732,6 @@ header .player::after {
 }
 .gallery .gallery__img .gallery__img__row .container {
   position: relative;
-  height: 450px;
   cursor: pointer;
 }
 .gallery .gallery__img .gallery__img__row .container img {
@@ -767,6 +785,43 @@ header .player::after {
   border: 1px solid #C8A969;
 }
 
+@media screen and (max-width: 425px) {
+  .gallery .gallery__btn {
+    margin: 20px 0;
+  }
+  .gallery h1 {
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: -55px;
+  }
+  .gallery h2 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .gallery h3 {
+    font-size: 17px;
+    margin: 20px 0px 20px 0px;
+  }
+  .gallery .gallery__img .gallery__img__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-bottom: 0px;
+  }
+  .gallery .gallery__img .gallery__img__row .container {
+    position: relative;
+    cursor: pointer;
+  }
+  .gallery .gallery__img .gallery__img__row .container img {
+    height: 200px;
+  }
+  .gallery .gallery__img .gallery__img__row .container .layout {
+    display: none;
+  }
+}
 .our--chef {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
@@ -816,6 +871,36 @@ header .player::after {
   margin-bottom: 250px;
 }
 
+@media screen and (max-width: 425px) {
+  .our--chef h1 {
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: -55px;
+  }
+  .our--chef h2 {
+    font-size: 23px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .our--chef h3 {
+    font-size: 17px;
+    margin: 20px 0px 20px 0px;
+  }
+  .our--chef__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 45px 0px 0px 0px;
+  }
+  .our--chef__img img {
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .our--blog {
   height: 100%;
   font-family: "Cormorant Garamond", serif;
@@ -898,7 +983,7 @@ header .player::after {
   width: 160px;
   height: 30px;
   text-align: center;
-  padding: 1.563rem 15px 15px 15px;
+  padding: 25px 15px 15px 15px;
   text-decoration: none;
 }
 .our--blog__content a:hover {
@@ -935,9 +1020,9 @@ header .player::after {
 
 @media screen and (max-width: 425px) {
   .our--blog h1 {
-    font-size: 80px;
-    margin-left: 5px;
-    margin-top: -50px;
+    font-size: 65px;
+    margin-left: 10px;
+    margin-top: 55px;
   }
   .our--blog h2 {
     font-size: 23px;
@@ -955,10 +1040,10 @@ header .player::after {
     margin: 50px 0px 0px 0px;
   }
   .our--blog__content .our--blog__content__article {
-    background-color: #FAF6F0;
     width: 250px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .our--blog__content img {
     width: 250px;
@@ -980,18 +1065,9 @@ header .player::after {
     font-size: 10px;
   }
   .our--blog__content a {
-    background-color: rgb(255, 255, 255);
-    font-family: sans-serif;
     font-size: 12px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
     margin: 30px 0px 30px 30px;
-    width: 160px;
-    height: 30px;
-    text-align: center;
-    padding: 1.563rem 15px 15px 15px;
-    text-decoration: none;
+    padding: 15px 5px 0px 5px;
   }
   .our--blog__content i {
     margin-left: 15px;
@@ -1000,15 +1076,12 @@ header .player::after {
     font-size: 22px;
   }
   .our--blog__icon {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    margin: 60px 210px 120px 210px;
+    margin: 35px;
   }
   .our--blog__icon img {
-    height: 90px;
+    height: 70px;
+    margin-bottom: 25px;
+    margin-right: 10px;
   }
 }
 footer {
