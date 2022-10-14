@@ -98,3 +98,17 @@
         }
     }
 }
+@media screen and (max-width: 425px) {
+    .our--menu {
+
+        h1 {
+            display: none;
+            
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .our--menu__content--item {
+        width: 40%;
+    }
+}

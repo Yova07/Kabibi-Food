@@ -110,6 +110,15 @@
             border:1px solid $gold-color;
         }
     }
+    @media screen and (max-width: 425px) {
+        .gallery {
+    
+            h1 {
+                display: none;
+                
+            }
+        }
+    }
 
     @media screen and (max-width:425px)                                   //media queries - mobile phone <425px                      
     { .gallery {
