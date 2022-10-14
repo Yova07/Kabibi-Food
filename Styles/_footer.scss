@@ -143,7 +143,28 @@ footer{
     align-items: end;
     margin-right: 35px;
     img{
+        position: relative;
         width: 35px;
         margin-right: 10px;
+        z-index: 20;
     }
+}
+.facebook::after{
+    content: "";
+    background-image: url(/img/footer/facebook.png);
+    position: absolute;
+    width: 100%;
+    
+}
+.twitter:hover{
+    background-image: url(/img/footer/twitter.png);
+    width: 35px;
+}
+.youtube:hover{
+    background-image: url(/img/footer/youtube.png);
+    width: 35px;
+}
+.linkedin:hover{
+    background-image: url(/img/footer/linkedin.png);
+    width: 35px;
 }
