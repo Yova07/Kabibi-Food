@@ -12,18 +12,21 @@ header {
     .nav--menu {
         font-size: 20px;
         height: 120px;
-        min-width: 95%;
+        width: 95%;
         margin-left: 90px ;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: auto;
 
         img {
             width: 180px;
+            margin-left: 2em;
+            cursor: pointer;
         }
     
         ul {
-            margin-right: 200px;
+            // margin-right: 12.5em;
             display: flex;
             justify-content: center;
             list-style: none;
@@ -32,6 +35,12 @@ header {
                 text-decoration: none;
                 color: $white;
                 padding: 25px;
+                opacity: 50%;
+                transition: 0.1s linear;
+
+                &:hover {
+                    opacity: 100%;
+                }
             
             }
             i {
@@ -49,14 +58,14 @@ header {
                 color: $white;
             }
             a {
-                font-size: 16px;
+                font-size: 17px;
                 color: $white;
                 font-weight: bold;
                 text-transform: uppercase;
                 background-color: $gold-color;
                 padding: 20px 30px;
                 margin-left: 40px;
-                margin-right: 90px;
+                margin-right: 2em;
                 text-decoration: none;
                 border-radius: 5px;
 
@@ -75,35 +84,30 @@ header {
     .title {
         font-family: 'Cormorant Garamond', serif;
         text-transform: uppercase;
-        font-size: 80px;
+        font-size: 70px;
         color: $white;
         width: 500px;
         margin: 140px 0 80px 200px;
         line-height: 150px;
-        position: relative;
 
-        &::before {
-            content: '';
-            z-index: 45;
-            background-image: url('../img/slider/img_bg2.png');
-            background-size: cover;
-            color: white;
-            position: absolute;
-            top: -70px;
-            right: -120px;
-            width: 170px;
-            height: 170px;
-        }
-
-        button {
+        a {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 16px;
             font-weight: bold;    
             margin-left: 30px;
-            text-transform: uppercase;    
+            text-transform: uppercase;
+            text-decoration: none;    
             background-color: rgba(0, 0, 0, 0);
             border: 2px solid rgba(128, 128, 128, 0.301);
             padding: 20px 35px;
             color: white;
+            cursor: pointer;
+            transition: 0.1s linear;
+
+            &:hover {
+                background-color: $white;
+                color: $black;
+            }
 
             i {
                 margin-left: 15px;
@@ -116,16 +120,15 @@ header {
         position: absolute;
         background-color: $white;
         font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
         border-radius: 50%;
         right: 275px;
         bottom: 305px;
+        cursor: pointer;
 
         i {
-            margin-left: 5px;
             font-size: 35px;
+            line-height: 130px;
             color: $gold-color;
         }
 
@@ -142,10 +145,6 @@ header {
         }
     }
 }
-@media screen and (max-width: 1700px) {
-    header {
-        ul {
-            
-        }
-    }
-}
+
+
+

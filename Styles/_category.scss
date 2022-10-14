@@ -6,10 +6,10 @@
     background-image: linear-gradient(#c8a8691e, #c8a8691e), url('../img/banner/imgbgcategory.jpg');
     background-size: 115%;
     background-position: 44% 55%;
+    background-repeat: no-repeat;
     background-color: $gold-color-lighter;
     position: relative;
     display: flex;
-    z-index: -50;
     flex-direction: column;
     justify-content: center;
 
@@ -24,7 +24,7 @@
         
     }
     h2 {
-        margin-top: -200px;
+        margin-top: -190px;
         text-align: center;
         font-size: 50px;
         text-transform: uppercase;
@@ -55,6 +55,24 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            position: relative;
+            cursor: pointer;
+            transition: 0.1s linear;
+
+            &:hover {
+                background-color: $gold-color;
+                
+                p {
+                    color: white;
+                }
+    
+                i {
+                    color: white;
+                }
+                i[class*=arrow] {
+                    color: white;
+                }
+            }
 
             p {
                 font-size: 23px;

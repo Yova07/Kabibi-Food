@@ -3,10 +3,10 @@
     position: relative;
     .about__img {
         display: flex;
-        justify-content: right;
+        justify-content: space-between;
         align-items: center;
         margin-top: -30px;
-        margin-right: 50px;
+        // margin-right: 50px;
         z-index: 200;
         
         
@@ -15,6 +15,7 @@
             margin: 0 10px;
             width: 350px;
             &:nth-child(2) {
+                margin-left: 100px;
                 margin-top: -200px;
                 width: 750px;
                 border: 50px solid white;
@@ -90,8 +91,15 @@
                 font-size: 16px;
                 border: none;
                 text-transform: uppercase;
+                cursor: pointer;
+                transition: 0.1s linear;
+
+                &:hover {
+                    box-shadow: 0 0 5px black;
+                }
 
             }
+
             i {
                 margin-left: 10px;
             }
