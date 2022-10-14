@@ -82,7 +82,7 @@
         width: 160px;
         height: 30px;
         text-align: center;
-        padding:1.563rem 15px 15px 15px;
+        padding:25px 15px 15px 15px;
         text-decoration: none;
     }
     a:hover{
@@ -118,13 +118,13 @@
 }
 
 
-@media screen and (max-width:425px)              // media queries mobile phone > 425px           
+@media screen and (max-width:425px)                                   //media queries - mobile phone <425px       
 {
     .our--blog{
         h1 {
-            font-size: 80px;
-            margin-left: 5px; 
-            margin-top: -50px;
+            font-size: 65px;
+            margin-left: 10px; 
+            margin-top: 55px;
         }
         h2 {
             font-size: 23px;
@@ -143,15 +143,14 @@
         margin: 50px 0px 0px 0px;
     
         .our--blog__content__article{
-            background-color: $gold-color-lighter;
             width: 250px;
             display: flex;
             flex-direction: column;
+            margin-bottom: 40px;
         }
         img{
             width: 250px;
         }
-        
         .our--blog__content__article__informations{
             display: flex;
             flex-direction: row;
@@ -169,18 +168,9 @@
             }
         }
         a{
-            background-color: $white;
-            font-family: sans-serif;
             font-size: 12px;
-            font-weight: bold;
-            color: $black;
-            text-transform: uppercase;
             margin: 30px 0px 30px 30px;
-            width: 160px;
-            height: 30px;
-            text-align: center;
-            padding:1.563rem 15px 15px 15px;
-            text-decoration: none;
+            padding:15px 5px 0px 5px;
         }
         i {
             margin-left: 15px;
@@ -191,14 +181,11 @@
     }
     
     .our--blog__icon{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
-        margin:60px 210px 120px 210px;
+        margin: 35px;
         img{
-            height: 90px;
+            height: 70px;
+            margin-bottom: 25px;
+            margin-right: 10px;
         }
     }
     
